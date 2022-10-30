@@ -260,5 +260,4 @@ void TestFilteringWithStatus() {
     ASSERT_EQUAL(fds4[0].id, 1);
     ASSERT_EQUAL(fds4[1].id, 2);
     ASSERT_EQUAL(fds4[2].id, 0);
-
 }

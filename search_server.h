@@ -46,8 +46,6 @@ public:
 
     int GetDocumentCount() const;
 
-    int GetDocumentId(int index) const;
-
     const std::vector<int>::const_iterator begin() const;
     const std::vector<int>::const_iterator end() const;
 
@@ -163,5 +161,3 @@ void AddDocument(SearchServer& search_server, int document_id, const std::string
 void FindTopDocuments(const SearchServer& search_server, const std::string& raw_query);
 
 void MatchDocuments(const SearchServer& search_server, const std::string& query);
-
-
